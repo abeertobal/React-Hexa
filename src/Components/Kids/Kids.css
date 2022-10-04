@@ -1,0 +1,67 @@
+span {
+    color: darkgray;
+    font-style: italic;
+    width: fit-content;
+    transition: 0.5s;
+  }
+  span:hover {
+    color: yellowgreen;
+  }
+  
+  .writes {
+    padding: 1rem 5rem;
+    width: fit-content;
+  }
+  .writes:hover {
+    color: darkmagenta;
+  }
+  
+  .page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .signal {
+    cursor: pointer;
+  }
+  .checked {
+    color: darkgray;
+  }
+  
+  .a {
+    margin-left: 156px;
+  }
+  
+  .b {
+    margin-left: 178px;
+  }
+  
+  .c {
+    margin-left: 163px;
+  }
+  
+  .d {
+    margin-left: 123px;
+  }
+  
+  .e {
+    margin-left: 168px;
+  }
+  
+  .f {
+    margin-left: 133px;
+  }
+  
+  .g {
+    margin-left: 130px;
+  }
+  
+  .h {
+    margin-left: 173px;
+  }
+  
+  .k {
+    margin-left: 190px;
+  }

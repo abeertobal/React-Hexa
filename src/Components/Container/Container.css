@@ -1,0 +1,87 @@
+.section {
+    display: flex;
+    padding: 40px 0;
+    /*  */
+    gap: 30px;
+    justify-content: space-between;
+    height: 600px;
+  }
+  
+  .img_left {
+    padding: 2rem;
+    width: 50%;
+    background: no-repeat top url("../../assets/img/left-banner-image.jpg");
+    background-size: cover;
+  }
+  .image1 {
+    line-height: 60px;
+    color: #eee;
+    margin-top: 160px;
+    
+  }
+  .image1:hover {
+    color: #195821;
+  }
+  .image1 span {
+    font-style: italic;
+  }
+  
+  .border {
+    color: white;
+    border-color: white;
+    background: transparent;
+    width: 140px;
+    height: 50px;
+  }
+  
+  .img_right {
+    width: 50%;
+  }
+  
+  .T_img {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .image2 {
+    padding: 2rem;
+    width: 50%;
+    height: 265px;
+    background: no-repeat top url("../../assets/img/baner-right-image-01.jpg");
+    background-size: cover;
+  }
+  
+  .image3 {
+    padding: 2rem;
+    padding-top: 8rem;
+    width: 50%;
+    height: 265px;
+    background: no-repeat top url("../../assets/img/baner-right-image-02.jpg");
+    background-size: cover;
+  }
+  
+  .image4 {
+    padding: 2rem;
+    padding-top: 8rem;
+    width: 50%;
+    background: no-repeat url("../../assets/img/baner-right-image-03.jpg");
+    background-size: cover;
+  }
+  .image5 {
+    padding: 2rem;
+    padding-top: 8rem;
+    width: 50%;
+    background: no-repeat url("../../assets/img/baner-right-image-04.jpg");
+    background-size: cover;
+  }
+  
+  .write {
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+  }
